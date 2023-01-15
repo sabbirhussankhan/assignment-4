@@ -31,13 +31,7 @@ section {
 }
 
 
-/* ul li {
-    list-style: none;
-} */
 
-/* a {
-    text-decoration: none;
-} */
 p {
     color: var(--p-color);
     line-height: 26px;
@@ -267,7 +261,7 @@ h2.s-title{
     filter: grayscale(100%);
 }
 .ending-part{
-    margin-top: 130px;
+    margin-top: 40px;
     margin-bottom: 10px;
     padding: 38px;
     border-radius: 8px;
@@ -284,12 +278,12 @@ footer{
     background-color: #151414;;
 }
 .font .p-btn{
-    background-color: white;
-    color: #F15B22;
+    background-color: var(--normal_white-colour);
+    color: var(--most_used-color);
     margin-top: 25px;
 }
 .footer-part{
-    color: white;
+    color: var(--normal_white-colour);
     padding-top: 130px;
     display: flex;
     justify-content: space-between;
@@ -332,10 +326,13 @@ footer{
 .s-text_{
     color: var(--normal_black-colour);
 }
-/* // Small devices ( phones, ) */
+
+
+
+/* // responsive*/
 @media only screen and (max-width: 576px) {
 
-    /* some common  */
+    /*  common css */
 
     h2.section-title {
         font-size: 20px;
@@ -353,7 +350,7 @@ footer{
     }
     
 
-    /* hero section  */
+    /* 1st part  */
 
     section {
         width: 100%;
@@ -366,10 +363,7 @@ footer{
         font-size: 30px;
         font-weight: 700;
     }
-    /* .header ul li {
-        display: block;
-        padding-right: 20px;
-    } */
+
     
     .first-part{
         flex-direction: column
@@ -459,7 +453,7 @@ footer{
         padding: 20px;
     }
 
-    /* card section style  */
+    /* card part  */
     
     .c-text {
         padding: 20px;
